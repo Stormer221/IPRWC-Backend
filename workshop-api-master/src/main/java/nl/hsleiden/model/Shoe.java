@@ -11,6 +11,15 @@ public class Shoe {
     @JsonView(View.Public.class)
     private String name;
 
+    @JsonView(View.Public.class)
+    private int productNr;
+
+    @JsonView(View.Public.class)
+    private String brand;
+
+    @JsonView(View.Public.class)
+    private int price;
+
     public int getSize() {
         return size;
     }
@@ -51,12 +60,4 @@ public class Shoe {
         this.price = price;
     }
 
-    @JsonView(View.Public.class)
-    private int productNr;
-
-    @JsonView(View.Public.class)
-    private String brand;
-
-    @JsonView(View.Public.class)
-    private int price;
 }
