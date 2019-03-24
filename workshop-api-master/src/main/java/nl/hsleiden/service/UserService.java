@@ -1,10 +1,11 @@
 package nl.hsleiden.service;
 
-import java.util.Collection;
-import javax.inject.Inject;
-import javax.inject.Singleton;
 import nl.hsleiden.model.User;
 import nl.hsleiden.persistence.UserDAO;
+
+import javax.inject.Inject;
+import javax.inject.Singleton;
+import java.util.Collection;
 
 /**
  *
